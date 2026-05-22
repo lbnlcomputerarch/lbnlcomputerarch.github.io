@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "LBNL Computer Architecture Group",
+  "short_name": "CAG",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
