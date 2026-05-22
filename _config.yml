@@ -42,8 +42,6 @@ callouts:
     color: red
 
 plugins:
-  - jekyll-seo-tag
-  - jekyll-feed
   - jekyll-email-protect
 
 exclude:
