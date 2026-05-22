@@ -37,7 +37,7 @@ Contact the [CAG SysAdmin](mailto:{{ 'ffard@lbl.gov' | encode_email }}) to reque
 
 ### I can't connect via SSH from outside LBNL.
 
-LBNL IT's Firewall can be aggressive if it sees too many connections from unknown IP addresses. Follow the instructions found on LBL's [Blocked Access to the Lab Network](https://it.lbl.gov/blocked-access-to-the-lab-network/) page.
+LBNL IT's Firewall can be aggressive if it sees too many connections from unknown IP addresses. Follow the instructions found on LBL's [Blocked Access to the Lab Network](https://it.lbl.gov/blocked-access-to-the-lab-network/){:target="_blank"} page.
 
 ## Computing Resources
 

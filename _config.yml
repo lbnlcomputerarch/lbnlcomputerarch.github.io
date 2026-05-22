@@ -5,7 +5,8 @@ theme: just-the-docs
 baseurl: ""
 url: "https://lbnlcomputerarch.github.io"
 
-color_scheme: dark
+# color_scheme: lbnl-dark
+color_scheme: lbnl-light
 
 logo: "assets/img/cag-logo.png"
 favicon_ico: "/assets/favicon/favicon.ico"
@@ -20,7 +21,9 @@ last_edit_time_format: "%Y %b %e at %H:%M %z" # uses ruby's time format: https:/
 
 aux_links:
   "Official CAG Site": https://amcr.lbl.gov/departments/computer-science-department/cag/
-  "LBNL Homepage": https://www.lbl.gov/
+  "AMCR": https://amcr.lbl.gov/
+  "LBNL": https://www.lbl.gov/
+aux_links_new_tab: true
 
 callouts:
   highlight:

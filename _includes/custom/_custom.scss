@@ -1,0 +1,40 @@
+---
+---
+
+// LBNL Typography — Libre Franklin (per LBNL Visual Identity spec)
+// This file is imported LAST in the SCSS pipeline, after all color scheme variables are defined.
+// It uses those $color-scheme variables directly — no imports needed.
+
+body, input, textarea, select {
+  font-family: 'Libre Franklin', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Franklin', sans-serif;
+  color: $body-heading-color;
+}
+
+.main a,
+.body a {
+  color: $link-color;
+
+  &:hover {
+    color: lighten($link-color, 10%);
+  }
+}
+
+.sidebar {
+  background-color: $sidebar-color !important;
+
+  .site-title {
+    color: #fff !important;
+  }
+
+  a:not(.external) {
+    color: $body-text-color !important;
+
+    &:hover {
+      color: lighten($body-text-color, 15%) !important;
+    }
+  }
+}
