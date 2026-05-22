@@ -1,12 +1,23 @@
 ---
 layout: page
 title: VNC Remote GUI
+nav_order: 3
 permalink: /docs/vnc-tunnel/
+parent: Documentation
 ---
 
 ## VNC Remote GUI
 
 This guide covers accessing a remote graphical desktop through VNC, using an SSH tunnel for encryption. SSH tunneling ensures that the VNC traffic — which is not encrypted by default — is transmitted securely.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Prerequisites
 

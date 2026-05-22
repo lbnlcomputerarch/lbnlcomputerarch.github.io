@@ -1,10 +1,21 @@
 ---
 layout: page
 title: FAQ
+nav_order: 5
 permalink: /docs/faq/
+parent: Documentation
 ---
 
 ## Frequently Asked Questions
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Access & Authentication
 
@@ -12,7 +23,15 @@ permalink: /docs/faq/
 
 All accounts must be requested through the [CAG System Adminstrator](mailto:{{ 'ffard@lbl.gov' | encode_email }}).
 
-### I forgot my LBNL password. What do I do?
+### How do I change my CAG password?
+
+Log into the server you have been given access and run:
+
+```bash
+passwd
+```
+
+### I forgot my CAG password. What do I do?
 
 Contact the [CAG SysAdmin](mailto:{{ 'ffard@lbl.gov' | encode_email }}) to request a password reset.
 
@@ -55,4 +74,4 @@ Generally, you can install tools in your home directory without `sudo` privilege
 
 Run `du -sh ~/* \| sort -hr | head -20` to find large directories. Clean up old environments, downloads, and temporary files.
 
-Still stuck? [Contact our administrators](mailto:cag@lbl.gov) for more information.
+Still stuck? [Contact our administrators](mailto:{{ 'ffard@lbl.gov' | encode_email }}) for more information.

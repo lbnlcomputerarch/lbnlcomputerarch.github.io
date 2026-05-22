@@ -1,12 +1,23 @@
 ---
 layout: page
 title: SSH Access
+nav_order: 1
 permalink: /docs/ssh-access/
+parent: Documentation
 ---
 
 ## SSH Access
 
 This guide covers how to connect to CAG computing resources using SSH.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Prerequisites
 

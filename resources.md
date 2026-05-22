@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resources
+nav_order: 3
 permalink: /resources/
 ---
 
@@ -23,9 +24,10 @@ See [Adding Tools to Your Environment]({{ '/docs/adding-tools/' | relative_url }
 | `wmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html) | 187 GiB | [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html) |
 | `pmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html) | 187 GiB | [AMD/Xilinx Alveo U280](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html) |
 
-<div class="callout callout-note">
-<p><strong>1:</strong> Ensure you perform your work in `/scratch/USERNAME`.</p>
-</div>
+{: .highlight-title }
+> Footnotes:
+> 
+> <strong><sup>1</sup>:</strong> Ensure you perform your work in <code>/scratch/USERNAME</code>.
 
 ### Other Resources
 

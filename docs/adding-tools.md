@@ -1,12 +1,23 @@
 ---
 layout: page
 title: Adding Tools to Your Environment
+nav_order: 4
 permalink: /docs/adding-tools/
+parent: Documentation
 ---
 
 ## Adding Tools to Your Environment
 
 This guide covers installing and managing software tools on CAG computing resources. On all CAG servers, you can find the tools in `/tools`.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## AMD/Xilinx Tools
 

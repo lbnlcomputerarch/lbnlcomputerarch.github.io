@@ -1,12 +1,23 @@
 ---
 layout: page
 title: XRDP Remote GUI
+nav_order: 2
 permalink: /docs/xrdp-tunnel/
+parent: Documentation
 ---
 
 ## XRDP Remote GUI
 
 This guide covers how to access a remote graphical desktop on our servers using XRDP through an SSH tunnel. SSH tunneling encrypts the VNC traffic so you can connect securely, even from untrusted networks.
+
+<details open markdown="block">
+  <summary>
+    Table of contents
+  </summary>
+  {: .text-delta }
+- TOC
+{:toc}
+</details>
 
 ## Prerequisites
 
