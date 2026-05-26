@@ -121,5 +121,5 @@ ssh-add ~/.ssh/id_ed25519
 |---------|---------------|----------|
 | Connection refused | Server is down or wrong address | Verify `SERVER.HOSTNAME.lbl.gov` and try again |
 | Permission denied (publickey) | Key not added or wrong key | Run `ssh-copy-id` or check `~/.ssh/authorized_keys` |
-| Connection timed out | Firewall or network issue | Confirm you are on LBNL network or using VPN |
+| Connection timed out | Firewall or network issue | [Confirm your IP hasn't been blocked](https://it.lbl.gov/blocked-access-to-the-lab-network/){:target="_blank"} |
 | Too many authentication failures | No keys offered | Use `-i ~/.ssh/id_ed25519` or configure `~/.ssh/config` |
