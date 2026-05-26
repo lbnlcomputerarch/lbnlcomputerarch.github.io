@@ -5,7 +5,9 @@ nav_order: 1
 permalink: /
 ---
 
-## Welcome to the LBNL Computer Architecture Group
+<div style="display: flex; align-items: center;">
+  <img src="{{ 'assets/img/cag-logo.png' | relative_url }}" alt="CAG Logo" style="height: 100px">&nbsp;&nbsp;<h2>Welcome to the LBNL Computer Architecture Group</h2>
+</div>
 
 The Computer Architecture Group (CAG) at [Lawrence Berkeley National Laboratory](https://www.lbl.gov/){:target="_blank"}'s Computing Sciences Area is a team of researchers, engineers, and scientists working at the intersection of hardware, software, and scientific applications.
 
