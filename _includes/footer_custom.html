@@ -1,9 +1,14 @@
 <div class="footer-logo" style="display: flex; align-items: center; gap: 8px; margin-bottom: 0;">
-  <img src="{{ '/assets/img/lbl-logo.png' | relative_url }}" alt="LBNL Logo" height="50px">
-    <span>Lawrence Berkeley National Laboratory</span>
+  <a href="https://lbl.gov" target="_blank"><img src="{{ '/assets/img/lbl-logo.png' | relative_url }}" alt="LBNL Logo" style="height: 50px;"></a>
+  <span>Lawrence Berkeley National Laboratory</span>
 </div>
 
 <div class="footer-copyright mt-2" style="font-size: 0.8rem; color: #63666a;">
     <p>&copy; {{ "now" | date: "%Y" }} Regents of the University of California.</p>
-     <p>Lawrence Berkeley National Laboratory is a U.S. DOE Office of Science national laboratory managed by the University of California.</p>
+     <p><a href="https://lbl.gov" target="_blank">Lawrence Berkeley National Laboratory</a> is a <a href="https://www.energy.gov/science/office-science" target="_blank">U.S. DOE Office of Science</a> national laboratory managed by the <a href="https://www.ucop.edu/laboratory-management/about-the-labs/overview-lbnl.html" target="_blank">University of California</a>.</p>
+</div>
+<div class="footer-logo" style="display: flex; align-items: center; justify-content: flex-end; gap: 8px; margin-bottom: 0;">
+  <a href="https://amcr.lbl.gov/" target="_blank"><img src="{{ '/assets/img/amcr-logo.png' | relative_url }}" alt="AMCR Logo" style="height: 35px;"></a>
+  <a href="https://www.energy.gov/science/office-science" target="_blank"><img src="{{ '/assets/img/doe-logo.svg' | relative_url }}" alt="DOE Logo" style="height: 35px;"></a>
+  <a href="https://www.ucop.edu/laboratory-management/about-the-labs/overview-lbnl.html" target="_blank"><img src="{{ '/assets/img/uc-logo.svg' | relative_url }}" alt="UC Logo" style="height: 35px;"></a>
 </div>
