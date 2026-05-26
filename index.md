@@ -11,11 +11,11 @@ The Computer Architecture Group (CAG) at [Lawrence Berkeley National Laboratory]
 
 Our mission is to deliver sustained improvements in performance for scientific workflows — whether in high-performance computing (HPC) data centers or on edge devices deployed in the field.
 
-<nav class="card-grid">
-<a href="https://amcr.lbl.gov/departments/computer-science-department/cag/" class="site-card" target="_blank">🔬<h3>About CAG</h3><p>Mission, research pillars, and our work across computing domains.</p></a>
-<a href="{{ '/docs/' | relative_url }}" class="site-card">📘<h3>Documentation</h3><p>Guides for accessing our servers, remote GUIs, and setting up your environment.</p></a>
-<a href="{{ '/resources/' | relative_url }}" class="site-card">🔗<h3>Resources</h3><p>Useful links to the official CAG site, LBNL resources, and more.</p></a>
-</nav>
+<div class="card-grid">
+<a href="https://amcr.lbl.gov/departments/computer-science-department/cag/" class="site-card" target="_blank">🔬<div class="card-title">About CAG</div><p>Mission, research pillars, and our work across computing domains.</p></a>
+<a href="{{ '/docs/' | relative_url }}" class="site-card">📘<div class="card-title">Documentation</div><p>Guides for accessing our servers, remote GUIs, and setting up your environment.</p></a>
+<a href="{{ '/resources/' | relative_url }}" class="site-card">🔗<div class="card-title">Resources</div><p>Useful links to the official CAG site, LBNL resources, and more.</p></a>
+</div>
 
 ---
 
