@@ -13,7 +13,8 @@ See [Adding Tools to Your Environment]({{ '/docs/adding-tools/' | relative_url }
 
 | Resource | Versions |
 | -------- | -------- |
-| AMD/Xilinx Vitis/Vivado | 2025.2.1, 2025.2, 2025.1.1, 2025.1, 2023.1, 2022.2, 2023.1 |
+| AMD Vitis/Vivado | 2025.2.1, 2025.2, 2025.1.1, 2025.1 |
+| Xilinx Vitis/Vivado | 2023.1, 2022.2, 2022.1 |
 | ModelSim | SE 2021.1 |
 
 ### Available Servers
