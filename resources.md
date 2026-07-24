@@ -21,10 +21,10 @@ See [Adding Tools to Your Environment]({{ '/docs/adding-tools/' | relative_url }
 
 | Server | OS | CPU | Memory | FPGA |
 | ------ | -- | --- | ------ | ---- |
-| `rhodey.lbl.gov`<sup>1</sup> | Ubuntu 22.04.5 LTS | 2 x [AMD EPYC 7763 64-Core Processor](https://www.amd.com/en/products/processors/server/epyc/7003-series/amd-epyc-7763.html){:target="_blank"} | 2 TiB | 5 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
-| `wmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html){:target="_blank"} | 187 GiB | 1 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
-| `pmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html){:target="_blank"} | 187 GiB | 1 x [AMD/Xilinx Alveo U280](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
-| `banner.lbl.gov` | Ubuntu 20.04.6 LTS | 4 x AMD Opteron(tm) Processor 6128 | 128 GiB | |
+| `rhodey.lbl.gov`<sup>1</sup> | Ubuntu 22.04.5 LTS | 2 x [AMD EPYC 7763 64-Core Processor](https://www.amd.com/en/products/processors/server/epyc/7003-series/amd-epyc-7763.html){:target="_blank"} | 2 TiB DDR4 3200MHz | 5 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
+| `wmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html){:target="_blank"} | 187 GiB DDR4 2666MHz | 1 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
+| `pmaximoff.lbl.gov` | Ubuntu 20.04.6 LTS | 2 x [Intel Xeon Silver 4216 CPU @ 2.10GHz](https://www.intel.com/content/www/us/en/products/sku/193394/intel-xeon-silver-4216-processor-22m-cache-2-10-ghz/specifications.html){:target="_blank"} | 187 GiB DDR4 2666MHz | 1 x [AMD/Xilinx Alveo U280](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
+| `banner.lbl.gov` | Ubuntu 20.04.6 LTS | 4 x AMD Opteron(tm) Processor 6128 | 128 GiB DDR3 1333MHz | |
 
 {: .highlight-title }
 > Footnotes:
@@ -38,9 +38,9 @@ See the official [Berkeley eXtensible Environment (BXE)](https://lbnlbxe.github.
 | Server | Description | OS | CPU | Memory | FPGA |
 | ------ | ----------- | -- | --- | ------ | ---- |
 | `bxe.lbl.gov` | Login Node | Debian GNU/Linux 12 (bookworm) | 1 x Virtual CPU | 8 GiB | |
-| `srogers.lbl.gov` | Manager VM Host | Ubuntu 24.04.4 LTS | 2 x [Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz](https://www.intel.com/content/www/us/en/products/sku/215274/intel-xeon-gold-6326-processor-24m-cache-2-90-ghz/specifications.html){:target="_blank"} | 2 TiB | |
-| `wilson.lbl.gov` | Runner FPGA Host | Ubuntu 24.04.4 LTS | 2 x [AMD EPYC 7282 16-Core Processor](https://www.amd.com/en/support/downloads/drivers.html/processors/epyc/epyc-7002-series/amd-epyc-7282.html){:target="_blank"} | 1 TiB | 8 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
-| `vizion.lbl.gov` | Runner FPGA Host | Ubuntu 22.04.5 LTS | 2 x [AMD EPYC 7282 16-Core Processor](https://www.amd.com/en/support/downloads/drivers.html/processors/epyc/epyc-7002-series/amd-epyc-7282.html){:target="_blank"} | 1 TiB | 8 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
+| `srogers.lbl.gov` | Manager VM Host | Ubuntu 24.04.4 LTS | 2 x [Intel(R) Xeon(R) Gold 6326 CPU @ 2.90GHz](https://www.intel.com/content/www/us/en/products/sku/215274/intel-xeon-gold-6326-processor-24m-cache-2-90-ghz/specifications.html){:target="_blank"} | 2 TiB DDR4 3200MHz | |
+| `wilson.lbl.gov` | Runner FPGA Host | Ubuntu 24.04.4 LTS | 2 x [AMD EPYC 7282 16-Core Processor](https://www.amd.com/en/support/downloads/drivers.html/processors/epyc/epyc-7002-series/amd-epyc-7282.html){:target="_blank"} | 1 TiB DDR4 3200MHz | 8 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
+| `vizion.lbl.gov` | Runner FPGA Host | Ubuntu 22.04.5 LTS | 2 x [AMD EPYC 7282 16-Core Processor](https://www.amd.com/en/support/downloads/drivers.html/processors/epyc/epyc-7002-series/amd-epyc-7282.html){:target="_blank"} | 1 TiB DDR4 3200MHz | 8 x [AMD/Xilinx Alveo U250](https://www.amd.com/en/products/accelerators/alveo/u250/a-u250-a64g-pq-g.html){:target="_blank"} |
 
 ### Other Resources
 
