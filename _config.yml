@@ -49,6 +49,8 @@ mermaid:
   # Pick an available version from https://cdn.jsdelivr.net/npm/mermaid/
   version: "11.16.0"
 
+ga_tracking: "G-M4XV9Q3XN3"
+
 exclude:
   - README.md
   - Gemfile

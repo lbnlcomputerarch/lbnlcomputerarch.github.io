@@ -48,4 +48,5 @@ See the official [Berkeley eXtensible Environment (BXE)](https://lbnlbxe.github.
 | -------- | ---- |
 | GitLab Repository | [socks.lbl.gov](https://socks.lbl.gov){:target="_blank"} |
 | Berkeley eXtensible Environment (BXE) | [lbnlbxe.github.io](https://lbnlbxe.github.io){:target="_blank"} |
+| Modular System for Acceleration Integration (MoSAIC) | [lbnlmosaic.github.io](https://lbnlmosaic.github.io){:target="_blank"} |
 | Official CAG Page | [amcr.lbl.gov → CAG](https://amcr.lbl.gov/departments/computer-science-department/cag/){:target="_blank"} |
