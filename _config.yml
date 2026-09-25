@@ -8,7 +8,7 @@ url: "https://lbnlcomputerarch.github.io"
 # color_scheme: lbnl-dark
 color_scheme: lbnl-light
 
-logo: "assets/img/cag-logo.png"
+logo: "/assets/img/cag-logo.png"
 favicon_ico: "/assets/favicon/favicon.ico"
 
 search_enabled: false
